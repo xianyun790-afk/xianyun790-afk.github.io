@@ -1,0 +1,46 @@
+:root { --project-nav-height: 65px; }
+
+.project-nav {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  height: var(--project-nav-height);
+  padding: 12px 24px;
+  background: #fff;
+  border-bottom: 1px solid #ededed;
+}
+
+.project-nav-inner { max-width: 1572px; margin: 0 auto; }
+
+.project-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid #111;
+  border-radius: 0;
+  background: #fff;
+  color: #111;
+  font: 14px/1.4 "PingFang SC", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", sans-serif;
+  text-decoration: none;
+  transition: background 150ms ease, color 150ms ease;
+}
+
+.project-home:hover { background: #111; color: #fff; }
+.project-home:focus-visible { outline: 2px solid #111; outline-offset: 3px; }
+main > section { scroll-margin-top: calc(var(--project-nav-height) + 12px); }
+
+/* Keep the proposal controls below the persistent return menu. */
+.research-stage { top: var(--project-nav-height); height: calc(100svh - var(--project-nav-height)); }
+
+@media (max-width: 600px) {
+  :root { --project-nav-height: 61px; }
+  .project-nav { padding: 10px 16px; }
+  .project-home { font-size: 13px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-home { transition: none; }
+}

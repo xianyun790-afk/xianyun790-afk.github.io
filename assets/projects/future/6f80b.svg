@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="69" height="48" viewBox="0 0 69 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 117">
+<g id="Union">
+<path d="M27.2295 4H66V41H0V0H23.459L27.2295 4Z" fill="white"/>
+<mask id="stroke0_0_5" fill="white">
+<path d="M27.2295 4H66V41H0V0H23.459L27.2295 4Z"/>
+</mask>
+<path d="M27.2295 4H66V41H0V0H23.459L27.2295 4Z" stroke-width="3" stroke="black" mask="url(#stroke0_0_5)"/>
+</g>
+<path id="Rectangle 130" d="M5.75 9.75H68.25V47.25H5.75V9.75Z" fill="white" stroke-width="1.5" stroke="black"/>
+</g>
+</svg>
